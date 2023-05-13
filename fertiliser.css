@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #6dc45a;
+	color: #fff;
+	padding: 40px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #121111;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2,h3 {
+	text-align: center;
+}
+h3{
+	margin: 50px;
+	font-size: 30px;
+}
+p{
+	font-size: 25px;
+}
+.photo{
+	text-align: center;
+	margin-top: 60px;
+
+}
+#home{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoQLIsKAXMnrC4k0BL9utWtWXUxh5twJBQxQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+#about{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGek6pvXEqWpgt_hTzmHqQChY2NJHzUHtHNqRQ4XtA9r_coLDq-tKi_sp8u9Vjqbd-ngk&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+#product{
+	background-image: url(https://img.freepik.com/premium-photo/closeup-beautiful-nature-view-green-leaf-blurred-greenery-background-garden-with-copy-space-using-as-background-cover-page-concept_105035-2145.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+#video{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/* footer section */
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
