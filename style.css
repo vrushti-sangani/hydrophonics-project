@@ -1,0 +1,249 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    background-image:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(/photos/bg-project1.jpg);
+    /* background-size: cover; */
+    margin-top: 30px;
+    color: rgb(9, 12, 17);
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+.container-one{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color:black;
+    /* background-color: #436444; */
+}
+.container-one p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.container-one h2{
+    font-size: 50px;
+    font-style: italic;
+}
+.container-two{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    margin-top: 30px;
+    /* background-color: #7cc27f; */
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/light-effect-nature-abstract-floral-green-flowers-powerpoint-background_737020f280__960_540.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.container-two p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.container-two h2{
+    font-size: 50px;
+    font-style: italic;
+}
+#about{
+    /* margin-top: 30px; */
+    color: rgb(9, 12, 17);
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+.container{
+    /* margin-top: 30px; */
+    color: rgb(9, 12, 17);
+    text-align: center;
+    /* padding: 50px; */
+    margin: 50px;
+}
+
+/* Header styles */
+header {
+    background-image:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(/photos/bg-project1.jpg);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #000;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero-text {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+.host{
+    display: flex;
+    justify-content: space-around;
+}
+
+.host img{
+    width: 80px;
+    border-radius:60%;
+    margin-right: 30px;
+}
+.host h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.host i{
+    color: #ff5361;
+}
+.contact-host{
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    color: #555;
+    padding: 15px 50px;
+    border: 1px solid #ff5361;
+    border-radius: 8px;
+}
+
+/* Services styles */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.service {
+    width: 300px;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service i {
+    font-size: 48px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 18px;
+}
+
+/* Projects styles */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project {
+    width: 300px;
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    .services, .projects {
+        flex-direction: column;
+    }
+
+    .service, .project {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+
+
+/* footer section */
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
