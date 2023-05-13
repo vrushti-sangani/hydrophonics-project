@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 40px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2,h3 {
+	text-align: center;
+}
+h3{
+	margin: 50px;
+	font-size: 30px;
+}
+p{
+	font-size: 25px;
+}
+.img{
+	text-align: center;
+}
+
+#home{
+	background-image: url(https://img.freepik.com/premium-photo/organic-green-cos-fresh-baby-plant-sprout-nursery-hydro-farming-agriculture_43300-3729.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+/* footer section */
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
